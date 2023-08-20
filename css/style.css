@@ -221,11 +221,14 @@ h2 {
     .menu_container {
         display: flex;
         padding: 0px;
+        margin: 10px;
+        justify-content: space-between;
     }
 
     .menu_icono {
-        display: initial;
+        display: flex;
         margin-right: 20px;
+        
     }
 
     .menu_container .navbar {
