@@ -8,10 +8,6 @@
     list-style: none;
 }
 
-html {
-    min-width: 450px;
-}
-
 body{
     font-family: 'Bebas Neue', cursive;
     background-color: #09080D;
