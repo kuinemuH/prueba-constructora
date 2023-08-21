@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,67 +8,65 @@
     list-style: none;
 }
 
-body {
-    font-family: 'Bebas Neue', cursive;
-    background-color: #09080d;
-} 
+html {
+    min-width: 450px;
+}
 
-p {
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #09080D;
+}
+
+p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .header {
-    background-image: linear-gradient( 
-        rgba(0, 0, 0, 0.5), 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)),
         url(../img/bg.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 70vh;
-        min-width: 65vh;
-        display: flex;
-        align-items: center;
-        animation: animate 3.2s linear forwards;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
-.menu_container {
+.menu {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .logo {
-    color: #fffdfc;
-    font-size: 35px;
-    margin-left: 30px;
-    animation: animate 0.5s linear forwards;
+    color: #FFFDFC;
+    font-size: 25px;
 }
 
-.menu_container .navbar ul li {
+.menu .navbar ul li {
     position: relative;
     float: left;
-    animation: animate 0.5s linear forwards;
 }
 
-.menu_container .navbar ul li a {
+.menu .navbar ul li a {
     font-size: 20px;
-    padding: 10px;
-    color: #fffdfc;
+    padding: 20px;
+    color: #FFFDFC;
     display: block;
-    animation: animate 0.5s linear forwards;
 }
 
-.menu_container .navbar ul li a:hover {
+.menu .navbar ul li a:hover {
     color: #e68b5e;
 }
 
@@ -78,57 +76,53 @@ p {
 
 .menu_icono {
     width: 25px;
+}
+
+.menu label{
     cursor: pointer;
     display: none;
 }
 
 .header_txt {
     width: 50%;
-    margin-left: 30px;
 }
 
 .header_txt h1 {
-    font-size: 80px;
-    line-height: 95px;
-    color: #fffdfc;
+    font-size: 105px;
+    line-height: 110px;
+    color: #FFFDFC;
     margin-bottom: 35px;
-    margin-top: 35px;
 }
 
 .header_txt p {
     font-size: 16px;
-    color: #e0e0e0;
-    margin-bottom: 35px;
+    color: #FFFDFC;
+    margin-bottom: 75px;
 }
 
 .btn_1 {
     display: inline-block;
     padding: 11px 45px;
     background-color: #e68b5e;
-    color: #fffdfc;
+    color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
 }
 
 .btn_1:hover {
-    background-color: #fffdfc;
+    background-color: #FFFDFC;
     color: #e68b5e;
 }
-
-/* SECCION NOSOTROS */
-
-.about_container {
-    min-height: 70vh;
-    min-width: 65vh;
+/* NOSOTROS */
+.about {
+    padding: 100px 0;
     display: flex;
-    align-items: center;
     border-bottom: 2px solid #e68b5e;
-    animation: animate 3.2s linear forwards;
+    align-items: center;
 }
 
 .about_txt {
     width: 50%;
-    animation: animate 3.2s linear forwards;
 }
 
 .about_img {
@@ -137,73 +131,29 @@ p {
 
 .about_img img {
     width: 450px;
-    animation: animate 3.2s linear forwards;
 }
 
 h2 {
     font-size: 70px;
-    color: #fffdfc;
+    color: #FFFDFC;
     margin-bottom: 15px;
 }
 
 .about_txt p {
     font-size: 16px;
-    color: #e0e0e0;
+    color: #FFFDFC;
     margin-bottom: 35px;
 }
-
-.btn_2 {
-    display: inline-block;
-    padding: 11px 45px;
-    background-color: #e68b5e;
-    color: #fffdfc;
-    border-radius: 25px;
-    font-size: 22px;
-}
-
-.btn_2:hover {
-    background-color: #fffdfc;
-    color: #e68b5e;
-}
-
-/* SECCION SERVICIOS */
-
-.services_container {
-    min-height: 70vh;
-    min-width: 65vh;
+/* SERVICIOS */
+.services {
+    padding: 100px 0;
     display: flex;
-    align-items: center;
     border-bottom: 2px solid #e68b5e;
+    align-items: center;
 }
 
 .services_txt {
     width: 50%;
-}
-
-h2 {
-    font-size: 70px;
-    color: #fffdfc;
-    margin-bottom: 15px;
-}
-
-.services_txt p {
-    font-size: 16px;
-    color: #e0e0e0;
-    margin-bottom: 35px;
-}
-
-.btn_3 {
-    display: inline-block;
-    padding: 11px 45px;
-    background-color: #e68b5e;
-    color: #fffdfc;
-    border-radius: 25px;
-    font-size: 22px;
-}
-
-.btn_3:hover {
-    background-color: #fffdfc;
-    color: #e68b5e;
 }
 
 .services_img {
@@ -214,53 +164,51 @@ h2 {
     width: 450px;
 }
 
+.services_txt p {
+    font-size: 16px;
+    color: #FFFDFC;
+    margin-bottom: 35px;
+}
 /* RESPONSIVE */
+@media (max-width: 991px){
 
-@media(max-width:991px) {
-
-    .menu_container {
-        display: flex;
-        padding: 0px;
-        margin: 10px;
-        justify-content: space-between;
+    .menu {
+        padding: 30px;
     }
 
-    .menu_icono {
-        display: flex;
-        margin-right: 20px;
-        
+    .menu label {
+        display: initial;
     }
 
-    .menu_container .navbar {
+    .menu .navbar {
         position: absolute;
-        top: 100%;
+        top:100%;
         left: 0;
         right: 0;
         background-color: rgba(0, 0, 0, 0.8);
         display: none;
-        animation: animate 0.5s linear forwards
     }
 
-    .menu_container .navbar ul li {
+    .menu .navbar ul li {
         width: 100%;
     }
 
-    #menu:checked ~ .navbar {
+    #menu:checked ~ .navbar{
         display: initial;
-    } 
+    }
 
     .header {
         min-height: 0vh;
+        background-size: cover; /* Evita que la imagen se achique demasiado */
+        background-position: center;
     }
 
-    .header_content_container {
-        padding: 70px 30px 30px 10px;
-        flex-direction: column;
+    .header_content {
+        padding: 100px 30px;
     }
 
     .header_txt {
         width: 100%;
-        padding-right: 40px;
         text-align: center;
     }
 
@@ -269,7 +217,7 @@ h2 {
         line-height: 80px;
     }
 
-    .about_container {
+    .about {
         padding: 30px 30px 30px 30px;
         flex-direction: column;
     }
@@ -290,7 +238,7 @@ h2 {
         width: 300px;
     }
     
-    .services_container {
+    .services {
         padding: 30px 30px 30px 30px;
         flex-direction: column;
     }
@@ -315,4 +263,6 @@ h2 {
 ::-webkit-scrollbar {
     display: none;
 }
+
+
 
