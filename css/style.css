@@ -165,6 +165,34 @@ h2 {
     color: #FFFDFC;
     margin-bottom: 35px;
 }
+
+/* CONTACTO */
+
+.contact {
+    padding: 100px 0;
+    display: flex;
+    border-bottom: 2px solid #e68b5e;
+    align-items: center;
+}
+
+.contact_txt {
+    width: 50%;
+}
+
+.contact_img {
+    width: 50%;
+}
+
+.contact_img img {
+    width: 450px;
+}
+
+.contact_txt p {
+    font-size: 16px;
+    color: #FFFDFC;
+    margin-bottom: 35px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 991px){
 
@@ -251,6 +279,26 @@ h2 {
     }
 
     .services_img img {
+        width: 300px;
+    }
+
+    .contact {
+        padding: 30px 30px 30px 30px;
+        flex-direction: column;
+    }
+
+    .contact_txt {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .contact_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_img img {
         width: 300px;
     }
 
