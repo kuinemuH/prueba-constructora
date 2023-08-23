@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <title>DG Construcciones</title>
 </head>
 <body>
@@ -28,7 +29,8 @@
             <div class="header_txt">
                 <h1>Trabajos de Construccion</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nobis eius, expedita iure libero soluta sequi voluptates, exercitationem error voluptatum, maiores placeat id beatae facere minus culpa suscipit facilis sunt.</p>
-                <a href="#" class="btn_1">Informacion</a>
+                <button class="btn-popup">Informacion</button>
+                </div>
             </div>
         </div>
     </header>
@@ -40,7 +42,7 @@
         <div class="about_txt">
             <h2>Nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, esse reprehenderit. Eos, ipsum ab? Sit, voluptas! Nihil blanditiis laudantium laborum quo, reprehenderit velit, quidem aliquam unde soluta aut cum amet.</p>
-            <a href="#" class="btn_1">Informacion</a>
+            <button class="btn2-popup">Informacion</button>
         </div>
     </section>
     <section class="services container">
@@ -50,7 +52,7 @@
         <div class="services_txt">
             <h2>Servicios</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, esse reprehenderit. Eos, ipsum ab? Sit, voluptas! Nihil blanditiis laudantium laborum quo, reprehenderit velit, quidem aliquam unde soluta aut cum amet.</p>
-            <a href="#" class="btn_1">Informacion</a>
+            <button class="btn3-popup">Informacion</button>
         </div>
     </section>    
     <section class="contact container">
@@ -60,10 +62,23 @@
         <div class="contact_txt">
             <h2>Contactanos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, esse reprehenderit. Eos, ipsum ab? Sit, voluptas! Nihil blanditiis laudantium laborum quo, reprehenderit velit, quidem aliquam unde soluta aut cum amet.</p>
-            <a href="#" class="btn_1">Formulario</a>
+            <button class="btn4-popup" id="btn4-popup">Formulario</button>
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <h3>Dejanos Tu Contacto!</h3>
+                    <h4>Nos Comunicaremos En Breve.</h4>
+                    <form action="">
+                        <div class="contenedor-inputs">
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="text" placeholder="Número Telefónico" required>
+                        </div>
+                        <input type="submit" class="btn-submit" value="ENVIAR">
+                    </form>
+                </div>
         </div>
     </section>
 </main>
-    
+    <script src="./js/app.js"></script>
 </body>
 </html>

@@ -96,19 +96,173 @@ p{
     margin-bottom: 75px;
 }
 
-.btn_1 {
+/* BOTON CON POP UP */
+.btn-popup {
     display: inline-block;
     padding: 11px 45px;
     background-color: #e68b5e;
     color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    cursor: pointer;
 }
 
-.btn_1:hover {
+.btn-popup:hover {
     background-color: #FFFDFC;
     color: #e68b5e;
 }
+
+.btn2-popup {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: #e68b5e;
+    color: #FFFDFC;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2-popup:hover {
+    background-color: #FFFDFC;
+    color: #e68b5e;
+}
+
+.btn3-popup {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: #e68b5e;
+    color: #FFFDFC;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    cursor: pointer;
+}
+
+.btn3-popup:hover {
+    background-color: #FFFDFC;
+    color: #e68b5e;
+}
+
+.btn4-popup {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: #e68b5e;
+    color: #FFFDFC;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    cursor: pointer;
+}
+
+.btn4-popup:hover {
+    background-color: #FFFDFC;
+    color: #e68b5e;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: #e68b5e;
+    color: #FFFDFC;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    cursor: pointer;
+    transition: .3 ease all;
+}
+
+.btn-submit:hover {
+    background-color: #FFFDFC;
+    color: #e68b5e;
+}
+
+/* ESTILO VENTANAS EMERGENTES */
+
+.overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay.active {
+    visibility: visible;
+}
+
+.popup {
+    background: #09080D;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+
+
+}
+
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #e68b5e;
+    transition: .3s ease all;
+}
+
+.popup .btn-cerrar-popup:hover {
+    color: #FFFDFC;
+}
+
+.popup h3 {
+    font-size: 36px;
+    color: #FFFDFC;
+    /* opacity: 0; */
+}
+
+.popup h4 {
+    font-size: 36px;
+    color: #FFFDFC;
+    /* opacity: 0; */
+}
+
+.popup form .contenedor-inputs {
+
+
+
+}
+
+.popup form .contenedor-inputs input {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #e68b5e57;
+    border: 1px solid #e68b5e;
+
+}
+
+
+
+/* ANIMACIONES POPUP */
+
+
 /* NOSOTROS */
 .about {
     padding: 100px 0;
