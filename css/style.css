@@ -183,7 +183,7 @@ p{
     color: #e68b5e;
 }
 
-/* ESTILO VENTANAS EMERGENTES */
+/* ESTILO VENTANAS EMERGENTES CONTACTO */
 
 .overlay {
     background: rgba(0, 0, 0, 0.2);
@@ -239,12 +239,6 @@ p{
     /* opacity: 0; */
 }
 
-.popup form .contenedor-inputs {
-
-
-
-}
-
 .popup form .contenedor-inputs input {
     width: 50%;
     margin-bottom: 10px;
@@ -257,6 +251,8 @@ p{
     border: 1px solid #e68b5e;
 
 }
+
+
 
 
 
@@ -463,4 +459,39 @@ h2 {
 }
 
 
+/* Footer */
 
+.footer {
+    background-color: #09080D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: white;
+    font-size: 40px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: #ff9900; /* Cambiar color al pasar el mouse */
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px;
+    }
+}
