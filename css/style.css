@@ -375,7 +375,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .header {
-        min-height: 0vh;
+        min-height: 50vh;
         background-size: cover; /* Evita que la imagen se achique demasiado */
         background-position: center;
     }
