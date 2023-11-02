@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     background-color: #09080D;
 }
 
@@ -24,9 +24,9 @@ p{
 
 .header {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)),
-        url(../img/bg.jpg);
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)),
+        url(../img/bg1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,6 +48,7 @@ p{
 .logo {
     color: #FFFDFC;
     font-size: 25px;
+    padding: 10px;
 }
 
 .menu .navbar ul li {
@@ -104,7 +105,7 @@ p{
     color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     border: none;
     cursor: pointer;
 }
@@ -121,7 +122,7 @@ p{
     color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     border: none;
     cursor: pointer;
 }
@@ -138,7 +139,7 @@ p{
     color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     border: none;
     cursor: pointer;
 }
@@ -155,7 +156,7 @@ p{
     color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     border: none;
     cursor: pointer;
 }
@@ -172,7 +173,7 @@ p{
     color: #FFFDFC;
     border-radius: 25px;
     font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     border: none;
     cursor: pointer;
     transition: .3 ease all;
@@ -251,9 +252,6 @@ p{
     border: 1px solid #e68b5e;
 
 }
-
-
-
 
 
 /* ANIMACIONES POPUP */
@@ -341,6 +339,11 @@ h2 {
     font-size: 16px;
     color: #FFFDFC;
     margin-bottom: 35px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none;  
 }
 
 /* RESPONSIVE */
