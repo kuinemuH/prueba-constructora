@@ -26,7 +26,7 @@ p{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)),
-        url(../img/bg1.jpg);
+        url(../img/bg3.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +207,7 @@ p{
     background: #09080D;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     padding: 20px;
     text-align: center;
     width: 600px;
@@ -274,7 +274,7 @@ p{
 }
 
 .about_img img {
-    width: 450px;
+    width: 580px;
 }
 
 h2 {
@@ -283,8 +283,13 @@ h2 {
     margin-bottom: 15px;
 }
 
+h3 {
+    color: #FFFDFC;
+    margin-bottom: 5px;
+}
+
 .about_txt p {
-    font-size: 16px;
+    font-size: 18px;
     color: #FFFDFC;
     margin-bottom: 35px;
 }
