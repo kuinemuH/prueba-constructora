@@ -17,6 +17,10 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3{
+    letter-spacing: 2px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -98,11 +102,12 @@ p{
 }
 
 /* BOTON CON POP UP */
-.btn-popup {
+
+/* .btn-popup {
     display: inline-block;
     padding: 11px 45px;
     background-color: #e68b5e;
-    color: #FFFDFC;
+    color: #FFFDFC;            //Botenes sin Uso Por ahora.
     border-radius: 25px;
     font-size: 22px;
     font-family: 'Bebas Neue';
@@ -130,7 +135,7 @@ p{
 .btn2-popup:hover {
     background-color: #FFFDFC;
     color: #e68b5e;
-}
+} */
 
 .btn3-popup {
     display: inline-block;
@@ -254,9 +259,6 @@ p{
 }
 
 
-/* ANIMACIONES POPUP */
-
-
 /* NOSOTROS */
 .about {
     padding: 100px 0;
@@ -274,24 +276,36 @@ p{
 }
 
 .about_img img {
-    width: 580px;
+    width: 560px;
 }
 
 h2 {
     font-size: 70px;
     color: #FFFDFC;
+    letter-spacing: 1px;
     margin-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-color: #e68b5e;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    animation: underlineAnimation 0.6s ease-in-out forwards;
 }
 
 h3 {
+    font-size: 23px;
     color: #FFFDFC;
     margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: #e68b5e;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    animation: underlineAnimation 0.6s ease-in-out forwards;
 }
 
 .about_txt p {
-    font-size: 18px;
+    font-size: 17px;
     color: #FFFDFC;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
 }
 /* SERVICIOS */
 .services {
@@ -317,6 +331,30 @@ h3 {
     font-size: 16px;
     color: #FFFDFC;
     margin-bottom: 35px;
+}
+
+.services_txt h5 {
+    font-size: 18px;
+    color: #FFFDFC;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: #e68b5e;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    animation: underlineAnimation 0.6s ease-in-out forwards;
+}
+
+@keyframes underlineAnimation {
+    0% {
+      text-decoration-color: transparent; /* Color transparente al inicio */
+    }
+    50% {
+      text-decoration-color: #e68b5e57; /* Color deseado a la mitad de la animación */
+    }
+    100% {
+      text-decoration-color: #e68b5e; /* Color deseado al final de la animación */
+    }
 }
 
 /* CONTACTO */
@@ -352,7 +390,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /* RESPONSIVE */
-@media (max-width: 991px){
+@media (max-width: 1130px){
 
     .menu {
         padding: 30px;
