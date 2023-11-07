@@ -284,11 +284,11 @@ h2 {
     color: #FFFDFC;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-decoration-color: #e68b5e;
     text-decoration-thickness: 3px;
     text-underline-offset: 4px;
-    animation: underlineAnimation 0.6s ease-in-out forwards;
+    animation: underlineAnimation 0.6s ease-in-out forwards; */
 }
 
 h3 {
@@ -330,7 +330,7 @@ h3 {
 .services_txt p {
     font-size: 16px;
     color: #FFFDFC;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 
 .services_txt h5 {
@@ -338,11 +338,10 @@ h3 {
     color: #FFFDFC;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    text-decoration: underline;
-    text-decoration-color: #e68b5e;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 3px;
-    animation: underlineAnimation 0.6s ease-in-out forwards;
+}
+
+#H5s{
+    padding-bottom: 20px;
 }
 
 @keyframes underlineAnimation {
